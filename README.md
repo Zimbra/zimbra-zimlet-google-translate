@@ -1,6 +1,6 @@
 # Google Translate Zimlet
 
-Google Translate Zimlet lets you translate incoming email messages to your own language using Google Translate. In case you receive messages in languages you cannot read yourself. If you are new to Zimlets please take a look at the previous article at https://github.com/Zimbra/zm-zimlet-guide. An overview of all Zimlet guides can be found at https://wiki.zimbra.com/wiki/DevelopersGuide.
+Google Translate Zimlet lets you translate incoming email messages to your own language using Google Translate. In case you receive messages in languages you cannot read yourself. **This Zimlet uses an undocumented Google Translate API - it may stop working unexpectedly** If you are new to Zimlets please take a look at the previous article at https://github.com/Zimbra/zm-zimlet-guide. An overview of all Zimlet guides can be found at https://wiki.zimbra.com/wiki/DevelopersGuide.
 
 ## Prerequisites 
 
