@@ -20,6 +20,12 @@ export default class MoreMenu extends Component {
         super(props);
         //store the Zimlet context to the class
         this.zimletContext = props.children.context;
+        
+        //A conversation is selected, take newest message
+        if(Array.isArray(this.props.emailData.messages))
+        {
+           this.props.emailData = this.props.emailData.messages[0];
+        }
     }
 
     //This shows a toaster message/notification to the user, used in case there are errors calling Google Translates
