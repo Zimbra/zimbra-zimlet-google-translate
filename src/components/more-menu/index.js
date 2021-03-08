@@ -97,7 +97,7 @@ export default class MoreMenu extends Component {
                 header={false}
                 footer={false}
             >
-                <div class="zimbra-client_modal-dialog_inner"><header class="zimbra-client_modal-dialog_header"><h2>{title}</h2><button onClick={this.handleClose} aria-label="Close" class="zimbra-client_close-button_close zimbra-client_modal-dialog_actionButton"><span role="img" class="zimbra-icon zimbra-icon-close blocks_icon_md"></span></button></header>
+                <header class="zimbra-client_modal-dialog_header"><h2>{title}</h2><button onClick={this.handleClose} aria-label="Close" class="zimbra-client_close-button_close zimbra-client_modal-dialog_actionButton"><span role="img" class="zimbra-icon zimbra-icon-close blocks_icon_md"></span></button></header>
                     <div class="zimbra-client_modal-dialog_content zimbra-client_language-modal_languageModalContent">
                         <div id="translateResult" style="white-space: pre-wrap;">{translateResult}</div>
                         <div class={style.attribution}></div>
@@ -105,7 +105,6 @@ export default class MoreMenu extends Component {
                     <footer class="zimbra-client_modal-dialog_footer" id="nextcloudDialogButtons">
                         <button onClick={this.handleClose} class="blocks_button_button blocks_button_primary blocks_button_regular zimbra-client_sidebar-primary-button_button">{this.props.okBtn}</button>
                     </footer>
-                </div>
             </ModalDialog>
         );
 
