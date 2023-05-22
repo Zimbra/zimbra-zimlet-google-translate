@@ -3,6 +3,10 @@
 		"title":"Translate message",
 		"okBtn": "OK",
 		"error": "Translation failed."
-      }
+      },
+	"zimlet": {
+		"description": "Google Translate for Zimbra",
+		"label": "Google Translate Zimlet"
+	}
 }
 
