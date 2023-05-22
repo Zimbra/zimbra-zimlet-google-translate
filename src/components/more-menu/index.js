@@ -99,7 +99,7 @@ export default class MoreMenu extends Component {
             >
                 <header class="zimbra-client_modal-dialog_header"><h2>{title}</h2><button onClick={this.handleClose} aria-label="Close" class="zimbra-client_close-button_close zimbra-client_modal-dialog_actionButton"><span role="img" class="zimbra-icon zimbra-icon-close blocks_icon_md"></span></button></header>
                     <div class="zimbra-client_modal-dialog_content zimbra-client_language-modal_languageModalContent">
-                        <div id="translateResult" style="white-space: pre-wrap;">{translateResult}</div>
+                        <div id="translateResult" style="white-space: pre-wrap;">{translateResult}<br/></div>
                         <div class={style.attribution}></div>
                     </div>
                     <footer class="zimbra-client_modal-dialog_footer" id="nextcloudDialogButtons">
